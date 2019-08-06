@@ -1,0 +1,6 @@
+user_name = input("enter your name: ")
+user_age = int(input("enter your age: "))
+copies = int(input("how many times do you wanna to print this: "))
+age_at_100 = int(100 - user_age)
+for i in range(copies):
+  print(f"hey {user_name} after {age_at_100} you wil become Hundred")
