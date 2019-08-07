@@ -1,0 +1,13 @@
+import random
+
+a = random.randint(1,9)
+user_input1 = int(input("guess first number: "))
+user_input2 = int(input("guess second number: "))
+user_input3 = int(input("guess third number: "))
+
+if user_input1 == a or user_input3 == a or user_input2 == a:
+    print("you guess the correct number! " + f"the correct number is {a} ")
+else:
+    print("you guessed the wrong numbers! " + f"the correct number is {a} ")
+
+
